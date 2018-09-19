@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lwlst.cap.MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="connection state : "/>
+
+        <TextView
+            android:id="@+id/connection_status_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="말보루"
+        android:id="@+id/btnled"
+        android:layout_marginLeft="106dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="112dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="에쎄"
+        android:id="@+id/btnled1"
+        android:layout_alignBaseline="@+id/btnled"
+        android:layout_alignBottom="@+id/btnled"
+        android:layout_toRightOf="@+id/btnled"
+        android:layout_toEndOf="@+id/btnled" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="한라산"
+        android:id="@+id/btnled2"
+        android:layout_below="@+id/btnled"
+        android:layout_alignLeft="@+id/btnled"
+        android:layout_alignStart="@+id/btnled" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="레종"
+        android:id="@+id/btnled3"
+        android:layout_below="@+id/btnled1"
+        android:layout_toRightOf="@+id/btnled2"
+        android:layout_toEndOf="@+id/btnled2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="장미"
+        android:id="@+id/btnled4"
+        android:layout_below="@+id/btnled2"
+        android:layout_alignLeft="@+id/btnled2"
+        android:layout_alignStart="@+id/btnled2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="타임"
+        android:id="@+id/btnled5"
+        android:layout_below="@+id/btnled3"
+        android:layout_toRightOf="@+id/btnled2"
+        android:layout_toEndOf="@+id/btnled2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="던힐"
+        android:id="@+id/btnled6"
+        android:layout_alignBaseline="@+id/btnled7"
+        android:layout_alignBottom="@+id/btnled7"
+        android:layout_toLeftOf="@+id/btnled7"
+        android:layout_toStartOf="@+id/btnled7" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="더원"
+        android:id="@+id/btnled7"
+        android:layout_below="@+id/btnled5"
+        android:layout_toRightOf="@+id/btnled4"
+        android:layout_toEndOf="@+id/btnled4" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        android:src="@drawable/sound1"
+        android:layout_below="@+id/btnled6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp" />
+
+</RelativeLayout>
